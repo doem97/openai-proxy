@@ -1,19 +1,19 @@
 # OpenAI-Proxy
 
-Distribute your API keys to your team members and control the usage for each API key.
+Distribute your OpenAI API keys to your team members and control the usage for each API key.
 
 # Installation
 
 This service is built on Google Cloud Functions or AWS Lambda. You can deploy it to your own cloud provider. Here is the instruction for Google Cloud Functions.
 
-## Configure Google Cloud Functions
+### Configure Google Cloud Functions
 
 1. Set up a Google Cloud project if you don't already have one: https://console.cloud.google.com/
 2. Enable the Cloud Functions API for your project: https://console.cloud.google.com/apis/library/cloudfunctions.googleapis.com
 3. Install Google Cloud SDK on your local machine: https://cloud.google.com/sdk/docs/install
 4. Authenticate your account by running `gcloud auth login` in the terminal.
 
-## Deploy the Service
+### Deploy the Service
 
 1. Clone this repository.
 ```bash
@@ -36,7 +36,7 @@ Please copy-paste this url for later use:
 export PROXY_URL="the_url_in_output"
 ```
 
-3. Call proxy API:
+### Make Request via Proxy
 Just like regular calling OpenAI API, but you need to change the API addr as proxy addr, and change `Authorization: UserName` field.
 I gave an example in `request.sh`. Like this:
 ```bash
@@ -49,5 +49,5 @@ curl ${PROXY_URL}/openai \
   }'
 ```
 
-4. Check the log of API key usage:
+### Track Request Log For Each User
 Open browser and navigate to `${PROXY_URL}/log`. You will see the log of API key usage.
