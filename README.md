@@ -1,6 +1,6 @@
 # OpenAI-Proxy
 
-Distribute your OpenAI API keys to your team members and control the usage for each API key.
+Distribute API access to your team members while keep your api key protected, and control the usage for each team member.
 
 # Installation
 
