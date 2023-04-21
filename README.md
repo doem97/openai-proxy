@@ -2,6 +2,10 @@
 
 Distribute API access to your team members while keep your api key protected, and control the usage for each team member.
 
+**WARNING** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota would be considered violation to OpenAI rules. PLEASE DON'T TRY TO DO SO!!
+
+**PLEASE only use this system to control the api access within your team.**
+
 # Installation
 
 This service is built on Google Cloud Functions or AWS Lambda. You can deploy it to your own cloud provider. Here is the instruction for Google Cloud Functions.
