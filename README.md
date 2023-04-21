@@ -1,6 +1,6 @@
 # OpenAI-Proxy
 
-Distribute API access to your team members while keep your api key protected, and control the usage for each team member.
+Distribute API access to your team members or applications while keep your api key protected, and control the usage for each access end.
 
 **WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
 
