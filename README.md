@@ -54,4 +54,4 @@ curl ${PROXY_URL}/openai \
 ```
 
 ### Track Request Log For Each User
-Open browser and navigate to `${PROXY_URL}/log`. You will see the log of API key usage.
+Open browser and navigate to `${PROXY_URL}/log`. You will see the usage of corresponding user.
