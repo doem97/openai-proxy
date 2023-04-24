@@ -1,10 +1,6 @@
 # OpenAI-Proxy
 
-Distribute API access to your team members or applications while keep your api key protected, and control the usage for each access end.
-
-**WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
-
-**PLEASE only use this system to control the api access WITHIN your team.**
+Distribute API access to your team members or applications while keep your api key protected, and control the usage for each access.
 
 # Installation
 
@@ -55,3 +51,7 @@ curl ${PROXY_URL}/openai \
 
 ### Track Request Log For Each User
 Open browser and navigate to `${PROXY_URL}/log`. You will see the usage of corresponding user.
+
+**WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
+
+**PLEASE only use this system to control the api access WITHIN your team.**
