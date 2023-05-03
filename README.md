@@ -1,4 +1,4 @@
-中文使用说明请访问 [这里](https://github.com/doem97/openai-proxy/blob/main/zh_cn.md)。
+[OpenAI GPT-4 API 分发工具]：中文使用说明请访问 [这里](https://github.com/doem97/openai-proxy/blob/main/zh_cn.md)。
 # OpenAI-Proxy
 
 Distribute API access to your team members or applications while keep your api key protected, and control the usage for each access.
