@@ -24,25 +24,25 @@ This service is built on Google Cloud Functions or AWS Lambda. You can deploy it
 ### Deploy the Service
 
 1. Clone this repository.
-```bash
-git clone https://github.com/doem97/openai-proxy.git
-cd openai-proxy
-```
+    ```bash
+    git clone https://github.com/doem97/openai-proxy.git
+    cd openai-proxy
+    ```
 
 2. Deploy the service to Google Cloud Functions. Please first edit `./deploy.sh` and modify USER_ID and OPENAI_API_KEY, and then
-```bash
-bash ./deploy.sh
-```
-You will got output in the terminal like this:
-```bash
-...
-url: https://ip-address-of-service.cloudfunctions.net/${USER_ID}
-...
-```
-Please copy-paste this url for later use:
-```bash
-export PROXY_URL="the_url_in_output"
-```
+    ```bash
+    bash ./deploy.sh
+    ```
+    You will got output in the terminal like this:
+    ```bash
+    ...
+    url: https://ip-address-of-service.cloudfunctions.net/${USER_ID}
+    ...
+    ```
+    Please copy-paste this url for later use:
+    ```bash
+    export PROXY_URL="the_url_in_output"
+    ```
 
 ## ⬆️ How to use API?
 Just like regular calling OpenAI API, but you need to change the API addr as proxy addr, and change `Authorization: UserName` field.
