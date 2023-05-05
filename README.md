@@ -60,6 +60,6 @@ curl ${PROXY_URL}/openai \
 ## 📝 How to know usage for each user?
 Open browser and navigate to `${PROXY_URL}/log`. You will see the usage of corresponding user.
 
-**WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
+**⛔️ WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
 
-**PLEASE only use this system to control the api access WITHIN your team.**
+**✅ PLEASE only use this system to control the api access WITHIN your team.**
