@@ -1,9 +1,16 @@
-[一分钟分发 OpenAI GPT-4 API]：中文使用说明请访问 [这里](https://github.com/doem97/openai-proxy/blob/main/zh_cn.md)。
-# OpenAI-Proxy
+<div align="center">
 
-Distribute API access to your team members or applications while keep your api key protected, and control the usage for each access.
+<h1 align="center">🕸 OpenAI-Proxy</h1>
 
-# Installation
+
+Distribute GPT-4 API to your team within 1 min.
+
+一分钟分发和管理 OpenAI GPT-4 API。
+
+[中文文档](https://github.com/doem97/openai-proxy/blob/main/zh_cn.md) / [Buy Me a Coffee](https://www.buymeacoffee.com/doem1997)
+</div>
+
+## 💾 How to deploy?
 
 This service is built on Google Cloud Functions or AWS Lambda. You can deploy it to your own cloud provider. Here is the instruction for Google Cloud Functions.
 
@@ -37,7 +44,7 @@ Please copy-paste this url for later use:
 export PROXY_URL="the_url_in_output"
 ```
 
-### Make Request via Proxy
+## ⬆️ How to use API?
 Just like regular calling OpenAI API, but you need to change the API addr as proxy addr, and change `Authorization: UserName` field.
 I gave an example in `request.sh`. Like this:
 ```bash
@@ -50,7 +57,7 @@ curl ${PROXY_URL}/openai \
   }'
 ```
 
-### Track Request Log For Each User
+## 📝 How to know usage for each user?
 Open browser and navigate to `${PROXY_URL}/log`. You will see the usage of corresponding user.
 
 **WARNING!!!** Although not explicitly mentioned in [OpenAI term of usage](https://openai.com/policies/terms-of-use), using this proxy to share/distribute your remaining quota to public would be considered violation to OpenAI rules, and will cause account limitation/ban. PLEASE DON'T TRY TO DO SO!!
